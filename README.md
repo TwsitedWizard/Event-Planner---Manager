@@ -32,10 +32,14 @@ cd social-event-planner
 2️⃣ Setup Backend
 cd backend
 npm install
+
 🔹 Create a .env file inside backend/ and add:
+
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
+
 🔹 Run the backend server:
+
 npm start
 It should run on http://localhost:5000
 
@@ -43,9 +47,11 @@ It should run on http://localhost:5000
 cd frontend
 npm install
 npm run dev
+
 Frontend will run on http://localhost:5173 🚀
 
 📂 Project Structure
+
 /social-event-planner
 │── backend
 │   ├── config/
